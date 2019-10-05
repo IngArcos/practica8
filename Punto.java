@@ -29,4 +29,9 @@ public class Punto{
  public String toString(){
   return "[" + getX() + ", " + getY() + "]";
  }
+
+ public String obtenerNombre(){
+	return "Punto";
+}
+
 }
